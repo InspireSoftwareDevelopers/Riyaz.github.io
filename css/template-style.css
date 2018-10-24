@@ -2230,7 +2230,7 @@ p.card-text {
 
 /* Modal Responsive */
 
-@media screen and (max-width: 667px) {  
+/*@media screen and (max-width: 667px) {  
 
 @media screen and (max-width: 900px) { 
 }
@@ -2270,7 +2270,7 @@ p.card-text {
   -moz-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out
 
-}
+}*/
 
 /* End Modal Responsive */
 /*-- card --*/

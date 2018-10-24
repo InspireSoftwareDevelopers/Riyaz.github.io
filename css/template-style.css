@@ -2225,10 +2225,54 @@ p.card-text {
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #E74C3C;
+  background-color: #000000;
 }
 
+/* Modal Responsive */
 
+@media screen and (max-width: 667px) {  
+
+@media screen and (max-width: 900px) { 
+}
+@media screen and (max-width: 800px) { 
+}
+@media screen and (max-width: 768px) { 
+}
+@media screen and (max-width: 736px) {
+}
+@media screen and (max-width: 640px) {
+}
+@media screen and (max-width: 600px) { 
+}
+@media screen and (max-width: 568px) {
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 384px) {
+}
+@media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 320px) {
+  #modal {
+  left: 50%;
+  margin: -100px 0 0 -50%;
+  opacity: 0;
+  position: absolute;
+  top: -50%;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out
+
+}
+
+/* End Modal Responsive */
 /*-- card --*/
 h5.card-title {
     font-size: 20px;
@@ -2764,4 +2808,3 @@ h3.tittle-w3ls {
     padding: 2em 1em;
 }
 }
-

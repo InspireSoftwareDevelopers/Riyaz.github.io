@@ -2783,7 +2783,37 @@ h3.tittle-w3ls {
   -webkit-transition: all .4s ease-in-out
 }
 
+@media (max-width: 575.98px) {
+  #modal {
+  left: 32%;
+  margin: -100px 0 0 -32%;
+  opacity: 0;
+  position: absolute;
+  top: -50%;
+  visibility: hidden;
+  width: 100%;
+  box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out
+} }
 
+@media (min-width: 375px) and (max-width: 667px){
+  #modal {
+  left: 32%;
+  margin: -100px 0 0 -32%;
+  opacity: 0;
+  position: absolute;
+  top: -50%;
+  visibility: hidden;
+  width: 100%;
+  box-shadow: 0 3px 7px rgba(0,0,0,.25);
+  box-sizing: border-box;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    }}
 
 
 /* End Modal Responsive */

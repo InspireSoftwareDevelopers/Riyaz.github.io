@@ -39,11 +39,18 @@
     <link rel="stylesheet" href="owl-carousel/owl.theme.css">     
     <link rel="stylesheet" href="css/template-style.css">
      <!-- <link href="css/JiSlider.css" rel="stylesheet">  -->
+
+   <link href="css/JiSlider.css" rel="stylesheet">
+  <!-- //banner-slider -->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+
     <link href="css/roadmap.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>      
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>   
+
+   
   </head>
   
   <body class="size-1140">
@@ -66,18 +73,61 @@
       </nav>
     </header>
     
-     
-          <div class="banner-top banner-top1">
+      
+    
+    <!-- banner -->
+  
+
+        <!-- <div class="banner-top banner-top1">
             <div class="container">
               <div class="banner-info info2">
               </div>
             </div>
           </div>
         </li> 
-    </div> 
+    </div>   --> 
 
-        
-  
+      <section class="banner-silder">
+    <div id="JiSlider" class="jislider">
+      <ul>
+        <li>
+          <div class="banner-top banner-top1">
+            <div class="container">
+              <div class="banner-info info2">
+                <!-- <h3>Center for Studies</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p> -->
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="banner-top banner-top2">
+            <div class="container">
+              <div class="banner-info bg3 info2">
+                <!-- <h3>Providing Higher Education</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p> -->
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="banner-top banner-top3">
+            <div class="container">
+              <div class="banner-info bg3">
+                <!-- <h3>Creating Your Future</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada neque et turpis hendrerit, et porta dui efficitur. Aenean auctor dui sit amet aliquet mollis.</p> -->
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </section>
+  <!--//banner -->
+
+  <!--//banner -->
+
+      
       <!-- Section 1 -->
       <section class="section-small-padding background-white text-center"> 
         <div class="line">
@@ -525,6 +575,34 @@
             });
         });
       </script>
+
+      <!--banner-slider-->
+  <script src="js/JiSlider.js"></script>
+  <script> 
+    $(window).load(function () {
+      $('#JiSlider').JiSlider({
+        color: '#fff',
+        start: 1,
+        reverse: false
+      }).addClass('ff')
+    })
+  </script>
+  <!-- //banner-slider -->
+
+  <!-- FlexSlider-JavaScript -->
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    
+        $(window).load(function(){
+        $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+      });
+    });
+  </script>
+<!-- //FlexSlider-JavaScript -->
 
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127138381-1"></script>
